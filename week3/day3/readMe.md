@@ -1,6 +1,6 @@
 # Fast Floward | Week 3 | Day 3
 
-Heyoooooooooooo. Jacob reporting in for another super awesome and fun day of Fast Floward content. Today, we will be using what we've learned about Cadence, DappStarter, and Composability to star making our own composability modules. We will have lengthy discussions in the Discord and Office Hours over the next few days to help you in your implementation. Let's have some fun with this and work through this together to make something great.
+Heyoooooooooooo. Jacob reporting in for another super awesome and fun day of Fast Floward content. Today, we will be using what we've learned about Cadence, DappStarter, and Composability to start making our own composability modules. We will have lengthy discussions in the Discord and Office Hours over the next few days to help you in your implementation. Let's have some fun with this and work through this together to make something great.
 
 # Videos
 
@@ -12,7 +12,7 @@ Office Hours video - https://www.youtube.com/watch?v=vNVr3c7N9RQ
 
 The past two days we have discussed Composability and how we (the Decentology team) have been approaching a technical implementation of Composability on Flow. Over the next 3 days, we will be working with 1 Quest to actually make our own Composability modules. 
 
-As a result, there won't be any "new" content today. Instead, we will use a more open-ended quest to stimulate conversation and speed bumps along the way that should serve as a great learning experience.
+As a result, there won't be any "new" content today. Instead, we will use a more open-ended quest to stimulate conversation around composability, which should serve as a great learning experience.
 
 Before you read the quest, I want to make it clear that this isn't something to be scared or stressed about. This quest is designed to allow you to explore your own creative ideas and to have some fun making a full dApp on your own. If you need any help along the way, the Discord & Office Hours are there for you. If you struggle along the way or don't have the time to finish before the week is over, *that is completely fine.* All I want to see is that you put in a good amount of effort and that you had some fun with it. This stuff is hard. So let's do our best and that's perfect enough.
 
@@ -24,7 +24,7 @@ As introduced earlier, there is 1 remaining quest for you for this bootcamp. As 
 
 For this quest, I want you to try and develop your own composability module. I have provided a DappStarter skeleton project for you to begin your quest. You can find that here: https://github.com/decentology/ff-empty-registry-demo. Inside it are both the RegistryService and RegistryInterface along with all the transactions, scripts, DappLib functions and UI Harness that go along with it. Your job is to think of your own composability modules using DappStarter. This is not an easy task, so we are giving you as long as you need to do it. We will not be introducing any quests over the next 3 days of the bootcamp, so you can try and complete it in that amount of time.
 
-To clarify: What I mean by a Composable Module is making some sort of RegistryContract inside your Registry/ contract folder. You'll see I already put a blank one there for you with some setup already to help you. Remember from the last two days that an example RegistryContract is the RegistryNFTContract that handles the composability of NFTs. Your job will be coming up with a different idea for composability or choosing from the list below.
+To clarify: What I mean by a Composable Module is making some sort of RegistryContract inside your Project/ contract folder. You'll see I already put a blank one there for you with some setup already to help you. Remember from the last two days that an example RegistryContract is the RegistryNFTContract that handles the composability of NFTs. Your job will be coming up with a different idea for composability or choosing from the list below.
 
 Next, I would like you to come up with at least 1 Calling Contract/Composed Contract that uses the Registry Contract. This is the equivalent of the MarketplaceContract in the demo repo you've been working with. Put this Composed Contract inside your Project/ contracts folder. You will then have to write the transactions, scripts, UI Harness, & DappLib functions that interact with your contracts to complete the module.
 
